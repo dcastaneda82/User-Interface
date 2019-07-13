@@ -64,3 +64,123 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	width: 1050px;
+	margin: auto;
+	/*border: 1px solid red;*/
+}
+
+header {
+	display: flex;
+	align-content: start;
+}
+
+header nav {
+	display: inline-block;
+	margin: auto;
+	
+}
+
+header nav a {
+  margin: 30px;
+  padding: 5px;
+  color: rgb(199, 199, 199);
+  text-decoration: none;
+}
+
+header nav a:hover {
+	  background: rgb(0, 102, 255);
+	  border-radius: 30px;
+	  color: rgb(255, 255, 255)
+}
+
+header nav a:active {
+    color: black;
+    background: #ffffff;
+}
+
+header .logo {
+	margin: 25px;
+}
+
+ hr {
+	border-bottom: 1px solid black;
+	width: 1000px;
+	margin-top: 80px;
+    }
+
+section .cta {
+	display: inline-block;
+}
+
+section .cta-text h1 {
+	display: flex;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.cta button {
+	display: flex;
+    margin-left: 200px;
+    background: white;
+    border: 1px solid;
+    /*padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 5px;
+	padding-top: 5px;*/
+	padding: 5px 50px 5px 50px;
+    box-sizing: border-box;
+    font-family: inherit;
+	font-size: 20px;
+	border-radius: 3px;
+}
+
+.cta button:hover {
+	background: rgb(0, 0, 0);
+	color: white;
+	border-radius: 5px;
+}
+
+.techArt{
+	display: inline-block;
+    margin-left: 604px;
+    margin-top: -375px;
+    width: 40%;
+}
+
+.top-content div {
+    /*margin-bottom: 15px;
+    margin-right: 600px;
+	border: 1px solid rgb(4, 0, 255);
+	box-sizing: border-box;*/
+	display: table-cell;
+    padding: 24px;
+    font-size: 18px;
+}
+
+.middle-img {
+	display: inline-block;
+    width: 1010px;
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+.bottom-content div {
+    display: table-cell;
+    padding: 24px;
+    font-size: 19px;
+}
+
+.contact h4 {
+	margin: 10px 25px 10px 25px;
+}
+.contact address {
+	margin: 25px;
+}
+footer {
+	margin-left: 450px;
+	margin-bottom: 125px;
+ }
